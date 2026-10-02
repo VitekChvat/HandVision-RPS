@@ -1,0 +1,6 @@
+# Target runtime: Python 3.12 (64-bit).
+# main.py uses the legacy mp.solutions API.
+mediapipe==0.10.21
+# Provides cv2; compatible with MediaPipe's NumPy < 2 constraint.
+opencv-contrib-python==4.11.0.86
+pygame-ce==2.5.7
